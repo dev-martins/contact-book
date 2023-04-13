@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
         ]);
 
-        \App\Models\Contact::factory(5)->create();
-        \App\Models\ContactPhone::factory(15)->create();
+        // \App\Models\Contact::factory(5)->create();
+        // \App\Models\ContactPhone::factory(15)->create();
     }
 }
