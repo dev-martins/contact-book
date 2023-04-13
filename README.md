@@ -3,7 +3,7 @@
    <p>
    
    - [Sobre](#sobre)
-   - [Funcionalidades](#Funcionalidades)
+   - [Funcionalidades](#funcionalidades)
    - [Como Usar](#como-usar)
    - [Como Contribuir](#como-contribuir)
 
@@ -31,13 +31,13 @@ Esse projeto tem como objetivo possibilitar ao usuário criar uma agenda de cont
 - Clone esse repositorio:
 
 ```bash 
-git clone https://github.com/dev-martins/contact-book.git
+git clone https://github.com/dev-martins/contact-book.git book
 ```
 
 - Entrar no diretorio:
 
 ```bash
-cd nomeDoProjeto
+cd book
 ```
 
 - Vendor
@@ -53,14 +53,15 @@ php artisan migrate
 php artisan db:seed
 ```
 
-- iniciar o servidor
+- Inicie o servidor
 
 ```bash
-php artisan serve 
+php artisan serve
+```
+- Em outro terminal
+```bash
 npm run dev
 ```
-  
-
 
 ---
 
@@ -70,21 +71,21 @@ npm run dev
 
 - Crie uma nova branch com sua modificações:
 
-sh
+```sh
 git checkout -b my-feature
-
+```
 
 - Salve suas configurações e crie um commit dizendo com o que você contribuiu:
 
-sh
+```sh
 git commit -m "feature: My new feature"
-
+```
 
 - Nos envie:
 
-sh
+```sh
 git push origin my-feature
-
+```
 
 ---
 
@@ -99,6 +100,6 @@ Se isso te ajudou, dê uma ⭐, isso vai me ajudar também!
 
    <div align="center">
 
-[![Linkedin Badge](https://img.shields.io/badge/-NOME%20SOBRENOME-292929?style=flat-square&logo=Linkedin&logoColor=white&link=URL_LINKEDIN)]([URL_LINKEDIN](https://www.linkedin.com/in/criar-site-martins/))
+[![Linkedin Badge](https://img.shields.io/badge/-Claudio%20Martins-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/criar-site-martins/)]([https://www.linkedin.com/in/criar-site-martins/](https://www.linkedin.com/in/criar-site-martins/))
 
    </div>
